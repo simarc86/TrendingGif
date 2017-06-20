@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		D02649371EF965CF001CCBEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D02649361EF965CF001CCBEB /* main.m */; };
 		D026493A1EF965CF001CCBEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D02649391EF965CF001CCBEB /* AppDelegate.m */; };
-		D026493D1EF965CF001CCBEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D026493C1EF965CF001CCBEB /* ViewController.m */; };
 		D02649401EF965CF001CCBEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D026493E1EF965CF001CCBEB /* Main.storyboard */; };
 		D02649431EF965CF001CCBEB /* trendinggif.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D02649411EF965CF001CCBEB /* trendinggif.xcdatamodeld */; };
 		D02649451EF965CF001CCBEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02649441EF965CF001CCBEB /* Assets.xcassets */; };
 		D02649481EF965CF001CCBEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02649461EF965CF001CCBEB /* LaunchScreen.storyboard */; };
 		D02649531EF965CF001CCBEB /* trendinggifTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D02649521EF965CF001CCBEB /* trendinggifTests.m */; };
 		D026495E1EF965CF001CCBEB /* trendinggifUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D026495D1EF965CF001CCBEB /* trendinggifUITests.m */; };
+		D026496D1EF9687D001CCBEB /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D026496C1EF9687D001CCBEB /* MyCell.m */; };
+		D02649701EF968E3001CCBEB /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D026496F1EF968E3001CCBEB /* MyCollectionViewController.m */; };
+		D02649731EF97021001CCBEB /* FetchGifs.m in Sources */ = {isa = PBXBuildFile; fileRef = D02649721EF97021001CCBEB /* FetchGifs.m */; };
+		D02649791EF97FD1001CCBEB /* GifImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D02649781EF97FD1001CCBEB /* GifImage.m */; };
+		D026497C1EF98055001CCBEB /* GifImageOriginal.m in Sources */ = {isa = PBXBuildFile; fileRef = D026497B1EF98055001CCBEB /* GifImageOriginal.m */; };
+		E0119EA2DB97740E4A1EECF4 /* libPods-trendinggif.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7510D0DB620B743DD44027AC /* libPods-trendinggif.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31B047B690635A0E51893028 /* Pods-trendinggif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendinggif.debug.xcconfig"; path = "Pods/Target Support Files/Pods-trendinggif/Pods-trendinggif.debug.xcconfig"; sourceTree = "<group>"; };
+		7510D0DB620B743DD44027AC /* libPods-trendinggif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-trendinggif.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FAB7057C047712CFD02B9C /* Pods-trendinggif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendinggif.release.xcconfig"; path = "Pods/Target Support Files/Pods-trendinggif/Pods-trendinggif.release.xcconfig"; sourceTree = "<group>"; };
 		D02649321EF965CF001CCBEB /* trendinggif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trendinggif.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02649361EF965CF001CCBEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D02649381EF965CF001CCBEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D02649391EF965CF001CCBEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D026493B1EF965CF001CCBEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D026493C1EF965CF001CCBEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D026493F1EF965CF001CCBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D02649421EF965CF001CCBEB /* trendinggif.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = trendinggif.xcdatamodel; sourceTree = "<group>"; };
 		D02649441EF965CF001CCBEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +59,16 @@
 		D02649591EF965CF001CCBEB /* trendinggifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trendinggifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D026495D1EF965CF001CCBEB /* trendinggifUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trendinggifUITests.m; sourceTree = "<group>"; };
 		D026495F1EF965CF001CCBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D026496B1EF9687D001CCBEB /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		D026496C1EF9687D001CCBEB /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		D026496E1EF968E3001CCBEB /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		D026496F1EF968E3001CCBEB /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		D02649711EF97021001CCBEB /* FetchGifs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchGifs.h; sourceTree = "<group>"; };
+		D02649721EF97021001CCBEB /* FetchGifs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchGifs.m; sourceTree = "<group>"; };
+		D02649771EF97FD1001CCBEB /* GifImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifImage.h; sourceTree = "<group>"; };
+		D02649781EF97FD1001CCBEB /* GifImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifImage.m; sourceTree = "<group>"; };
+		D026497A1EF98055001CCBEB /* GifImageOriginal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifImageOriginal.h; sourceTree = "<group>"; };
+		D026497B1EF98055001CCBEB /* GifImageOriginal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifImageOriginal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0119EA2DB97740E4A1EECF4 /* libPods-trendinggif.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6908C448A3E098F89DA87FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31B047B690635A0E51893028 /* Pods-trendinggif.debug.xcconfig */,
+				C8FAB7057C047712CFD02B9C /* Pods-trendinggif.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1D370FF6BC6F0C464FAB274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7510D0DB620B743DD44027AC /* libPods-trendinggif.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D02649291EF965CF001CCBEB = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +121,8 @@
 				D02649511EF965CF001CCBEB /* trendinggifTests */,
 				D026495C1EF965CF001CCBEB /* trendinggifUITests */,
 				D02649331EF965CF001CCBEB /* Products */,
+				A6908C448A3E098F89DA87FD /* Pods */,
+				B1D370FF6BC6F0C464FAB274 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,8 +141,16 @@
 			children = (
 				D02649381EF965CF001CCBEB /* AppDelegate.h */,
 				D02649391EF965CF001CCBEB /* AppDelegate.m */,
-				D026493B1EF965CF001CCBEB /* ViewController.h */,
-				D026493C1EF965CF001CCBEB /* ViewController.m */,
+				D026496E1EF968E3001CCBEB /* MyCollectionViewController.h */,
+				D026496F1EF968E3001CCBEB /* MyCollectionViewController.m */,
+				D026496B1EF9687D001CCBEB /* MyCell.h */,
+				D026496C1EF9687D001CCBEB /* MyCell.m */,
+				D02649711EF97021001CCBEB /* FetchGifs.h */,
+				D02649721EF97021001CCBEB /* FetchGifs.m */,
+				D02649771EF97FD1001CCBEB /* GifImage.h */,
+				D02649781EF97FD1001CCBEB /* GifImage.m */,
+				D026497A1EF98055001CCBEB /* GifImageOriginal.h */,
+				D026497B1EF98055001CCBEB /* GifImageOriginal.m */,
 				D026493E1EF965CF001CCBEB /* Main.storyboard */,
 				D02649441EF965CF001CCBEB /* Assets.xcassets */,
 				D02649461EF965CF001CCBEB /* LaunchScreen.storyboard */,
@@ -150,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D02649621EF965CF001CCBEB /* Build configuration list for PBXNativeTarget "trendinggif" */;
 			buildPhases = (
+				CC1A28BEA41EE661689A35A2 /* [CP] Check Pods Manifest.lock */,
 				D026492E1EF965CF001CCBEB /* Sources */,
 				D026492F1EF965CF001CCBEB /* Frameworks */,
 				D02649301EF965CF001CCBEB /* Resources */,
+				D8032E5B7ED4A14A274E12C8 /* [CP] Embed Pods Frameworks */,
+				F054875BF8026DD1D3AE397F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +318,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CC1A28BEA41EE661689A35A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8032E5B7ED4A14A274E12C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trendinggif/Pods-trendinggif-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F054875BF8026DD1D3AE397F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trendinggif/Pods-trendinggif-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D026492E1EF965CF001CCBEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D026493D1EF965CF001CCBEB /* ViewController.m in Sources */,
+				D02649791EF97FD1001CCBEB /* GifImage.m in Sources */,
 				D02649431EF965CF001CCBEB /* trendinggif.xcdatamodeld in Sources */,
+				D02649701EF968E3001CCBEB /* MyCollectionViewController.m in Sources */,
+				D026497C1EF98055001CCBEB /* GifImageOriginal.m in Sources */,
 				D026493A1EF965CF001CCBEB /* AppDelegate.m in Sources */,
+				D02649731EF97021001CCBEB /* FetchGifs.m in Sources */,
+				D026496D1EF9687D001CCBEB /* MyCell.m in Sources */,
 				D02649371EF965CF001CCBEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +527,7 @@
 		};
 		D02649631EF965CF001CCBEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B047B690635A0E51893028 /* Pods-trendinggif.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = trendinggif/Info.plist;
@@ -439,6 +539,7 @@
 		};
 		D02649641EF965CF001CCBEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FAB7057C047712CFD02B9C /* Pods-trendinggif.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = trendinggif/Info.plist;
@@ -513,6 +614,7 @@
 				D02649641EF965CF001CCBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D02649651EF965CF001CCBEB /* Build configuration list for PBXNativeTarget "trendinggifTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +623,7 @@
 				D02649671EF965CF001CCBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D02649681EF965CF001CCBEB /* Build configuration list for PBXNativeTarget "trendinggifUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +632,7 @@
 				D026496A1EF965CF001CCBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

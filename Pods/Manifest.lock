@@ -1,0 +1,15 @@
+PODS:
+  - AFNetworking/Serialization (2.6.3)
+  - AnimatedGIFImageSerialization (0.2.0)
+
+DEPENDENCIES:
+  - AFNetworking/Serialization (~> 2.3)
+  - AnimatedGIFImageSerialization (~> 0.2.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AnimatedGIFImageSerialization: b0f0cfe71eac1ee45a3d57ae533c23b8e6f29501
+
+PODFILE CHECKSUM: 3b4de5f347cfffeb16b248d64afe49fb4baf7755
+
+COCOAPODS: 1.2.1

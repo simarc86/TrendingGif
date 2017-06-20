@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyCell.h
 //  trendinggif
 //
 //  Created by Marc Tamarit Romero on 20/6/17.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *gifImageView;
 
 @end
-

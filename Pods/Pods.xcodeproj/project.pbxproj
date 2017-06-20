@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09058906198B75D549CA225201077983 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1F10B800DDBCD44DD4F96F2E183117 /* MobileCoreServices.framework */; };
+		2ACCC4E8F82C4C59BD03D9AA671E5B76 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6C6A486079D14F68A24732C770E0A8 /* ImageIO.framework */; };
+		2B79082517FD53A72CCF805A8056A38B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E59437BD06A4B7DFFAB789F6CA5635 /* CoreGraphics.framework */; };
+		43DDA479CB8427EB56B4FF9C33081CD8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1653BFB128CA4EDC6337E19A178E387B /* AFURLRequestSerialization.m */; };
+		48CDBB8C8CC00B91F3B76AE3CF389DDF /* AnimatedGIFImageSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3BAD3EAF0630ACEC0C13DABE776B71 /* AnimatedGIFImageSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6FFA365B47F3D7EF16B3F843C03005 /* AnimatedGIFImageSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7957945A3B00A75670E0291075AAE0ED /* AnimatedGIFImageSerialization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4BCB4E34BA9D31CAD273C8960E5508E0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1F10B800DDBCD44DD4F96F2E183117 /* MobileCoreServices.framework */; };
+		562982DCB982C2DD31A5C3B86E6F357A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E59437BD06A4B7DFFAB789F6CA5635 /* CoreGraphics.framework */; };
+		5FCB0401377484378CEA0594DC28BE11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA72195320FF4E1F6F46BF6D8D6B78D1 /* Foundation.framework */; };
+		6A1250A217F59BEA1E15ACE402E88EC9 /* Pods-trendinggif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5835F11E03BC2FE230F7F106F880B6B /* Pods-trendinggif-dummy.m */; };
+		6A7C7D028D9D9CEBE57EE930B5F0CA9D /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2823E22884A65D27291B0405F923A0AC /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C31E8E44F979CF51DBDDF9A6FD00270 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D18D265AC84C2D3BF2C4952BE08A014 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		759CA6FFB61FE73843FB937415188ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA72195320FF4E1F6F46BF6D8D6B78D1 /* Foundation.framework */; };
+		77BB593FC7748D7C0B3C6A2A54894A46 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A213C6A329E3F1A05370EC26B5EDC4 /* AFNetworking-dummy.m */; };
+		B9252B44CD95AC87A48BAA6D76AC2FB1 /* AnimatedGIFImageSerialization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B02AD63FF5E2D00146A05757B8EEE0 /* AnimatedGIFImageSerialization-dummy.m */; };
+		C6D7F9324AE08C9EB063F06567779A7E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BE128DCFB6F7765260541C04FF9611B4 /* AFURLResponseSerialization.m */; };
+		C7787431A49F034A52157CBD85E1C827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA72195320FF4E1F6F46BF6D8D6B78D1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330630BBA52808CF1AB0907E32E934D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AE91A67AE779562F7CA8F280E4E55D3;
+			remoteInfo = AnimatedGIFImageSerialization;
+		};
+		A8CA94A0380CFD7E21E7A64F0F11C058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9846837AD2E488C5ECA616CC6EFB17AD;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA8CA023CA46663B1002C7E55AC7666 /* libAnimatedGIFImageSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAnimatedGIFImageSerialization.a; path = libAnimatedGIFImageSerialization.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		131154B42300856AABC95C7DFCE8E8E8 /* AnimatedGIFImageSerialization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedGIFImageSerialization.xcconfig; sourceTree = "<group>"; };
+		1653BFB128CA4EDC6337E19A178E387B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		1D4C6891F6C1D478BB0E6F945BBE6FF7 /* Pods-trendinggif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trendinggif.debug.xcconfig"; sourceTree = "<group>"; };
+		20E59437BD06A4B7DFFAB789F6CA5635 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2823E22884A65D27291B0405F923A0AC /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		2A8F6FADF31A73CB8902496CA34D6552 /* libPods-trendinggif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-trendinggif.a"; path = "libPods-trendinggif.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6311FF10A280DBA22F04E0DE2B88A6 /* Pods-trendinggif-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-trendinggif-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EDFBAEFA4637BA5783D0C53DBC24D53 /* Pods-trendinggif-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-trendinggif-resources.sh"; sourceTree = "<group>"; };
+		64A213C6A329E3F1A05370EC26B5EDC4 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		7957945A3B00A75670E0291075AAE0ED /* AnimatedGIFImageSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnimatedGIFImageSerialization.m; path = AnimatedGIFImageSerialization/AnimatedGIFImageSerialization.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D18D265AC84C2D3BF2C4952BE08A014 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A1EA61AA0AF4A6C1D6A11126918C26E3 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		AC1F10B800DDBCD44DD4F96F2E183117 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		B0CD05CA81DBF788FADAD802FFC67791 /* Pods-trendinggif-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-trendinggif-frameworks.sh"; sourceTree = "<group>"; };
+		B5835F11E03BC2FE230F7F106F880B6B /* Pods-trendinggif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-trendinggif-dummy.m"; sourceTree = "<group>"; };
+		B9CA6E6FFF5583B9FC33F8145BAAA253 /* Pods-trendinggif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trendinggif.release.xcconfig"; sourceTree = "<group>"; };
+		BE128DCFB6F7765260541C04FF9611B4 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C276A7656BEECCCB87EF64FD359C7C79 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA72195320FF4E1F6F46BF6D8D6B78D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF3BAD3EAF0630ACEC0C13DABE776B71 /* AnimatedGIFImageSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnimatedGIFImageSerialization.h; path = AnimatedGIFImageSerialization/AnimatedGIFImageSerialization.h; sourceTree = "<group>"; };
+		D5B02AD63FF5E2D00146A05757B8EEE0 /* AnimatedGIFImageSerialization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedGIFImageSerialization-dummy.m"; sourceTree = "<group>"; };
+		E9D9CCCB635F7F5D97AFE928DE261CF7 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		F381221E6702B62897FC6A43B43148D5 /* Pods-trendinggif-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trendinggif-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC3B673F9DE1CFFA9F4BC7F0E6C837BC /* AnimatedGIFImageSerialization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedGIFImageSerialization-prefix.pch"; sourceTree = "<group>"; };
+		FE6C6A486079D14F68A24732C770E0A8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		780EB5802EC23FF3C513A482CFF19490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCB0401377484378CEA0594DC28BE11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970F6F813EB92023E3C3D1EA2679A78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562982DCB982C2DD31A5C3B86E6F357A /* CoreGraphics.framework in Frameworks */,
+				C7787431A49F034A52157CBD85E1C827 /* Foundation.framework in Frameworks */,
+				09058906198B75D549CA225201077983 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB5AD8CB86877F49D4145B28020672E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B79082517FD53A72CCF805A8056A38B /* CoreGraphics.framework in Frameworks */,
+				759CA6FFB61FE73843FB937415188ADA /* Foundation.framework in Frameworks */,
+				2ACCC4E8F82C4C59BD03D9AA671E5B76 /* ImageIO.framework in Frameworks */,
+				4BCB4E34BA9D31CAD273C8960E5508E0 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041F808EF95E24E97DF46E3700F6644D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F25215ADD2F7DF557AB2C3F4B8931DB2 /* AFNetworking */,
+				08BC5EE5855CB3DE0EF16AAAEB70E8E0 /* AnimatedGIFImageSerialization */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		08BC5EE5855CB3DE0EF16AAAEB70E8E0 /* AnimatedGIFImageSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				CF3BAD3EAF0630ACEC0C13DABE776B71 /* AnimatedGIFImageSerialization.h */,
+				7957945A3B00A75670E0291075AAE0ED /* AnimatedGIFImageSerialization.m */,
+				1B7C926CDC6478203CCD48C971E0B821 /* Support Files */,
+			);
+			name = AnimatedGIFImageSerialization;
+			path = AnimatedGIFImageSerialization;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3962BD3FE913C8642349A15F20A59481 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B7C926CDC6478203CCD48C971E0B821 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				131154B42300856AABC95C7DFCE8E8E8 /* AnimatedGIFImageSerialization.xcconfig */,
+				D5B02AD63FF5E2D00146A05757B8EEE0 /* AnimatedGIFImageSerialization-dummy.m */,
+				FC3B673F9DE1CFFA9F4BC7F0E6C837BC /* AnimatedGIFImageSerialization-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnimatedGIFImageSerialization";
+			sourceTree = "<group>";
+		};
+		29E825B38C29E2CA00EDC9DC79F0E011 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9CCCB635F7F5D97AFE928DE261CF7 /* AFNetworking.xcconfig */,
+				64A213C6A329E3F1A05370EC26B5EDC4 /* AFNetworking-dummy.m */,
+				A1EA61AA0AF4A6C1D6A11126918C26E3 /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		3962BD3FE913C8642349A15F20A59481 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20E59437BD06A4B7DFFAB789F6CA5635 /* CoreGraphics.framework */,
+				CA72195320FF4E1F6F46BF6D8D6B78D1 /* Foundation.framework */,
+				FE6C6A486079D14F68A24732C770E0A8 /* ImageIO.framework */,
+				AC1F10B800DDBCD44DD4F96F2E183117 /* MobileCoreServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4FB594D243B5C399ADBEF1298DD2200D /* Pods-trendinggif */ = {
+			isa = PBXGroup;
+			children = (
+				2F6311FF10A280DBA22F04E0DE2B88A6 /* Pods-trendinggif-acknowledgements.markdown */,
+				F381221E6702B62897FC6A43B43148D5 /* Pods-trendinggif-acknowledgements.plist */,
+				B5835F11E03BC2FE230F7F106F880B6B /* Pods-trendinggif-dummy.m */,
+				B0CD05CA81DBF788FADAD802FFC67791 /* Pods-trendinggif-frameworks.sh */,
+				5EDFBAEFA4637BA5783D0C53DBC24D53 /* Pods-trendinggif-resources.sh */,
+				1D4C6891F6C1D478BB0E6F945BBE6FF7 /* Pods-trendinggif.debug.xcconfig */,
+				B9CA6E6FFF5583B9FC33F8145BAAA253 /* Pods-trendinggif.release.xcconfig */,
+			);
+			name = "Pods-trendinggif";
+			path = "Target Support Files/Pods-trendinggif";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				041F808EF95E24E97DF46E3700F6644D /* Pods */,
+				CF2806D2B90B4F91F365D1EB3B161355 /* Products */,
+				BE469905CC9789B84B4F36EAB02E1649 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1C4590DA6E9F0D9875B3476A946EB6 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				2823E22884A65D27291B0405F923A0AC /* AFURLRequestSerialization.h */,
+				1653BFB128CA4EDC6337E19A178E387B /* AFURLRequestSerialization.m */,
+				9D18D265AC84C2D3BF2C4952BE08A014 /* AFURLResponseSerialization.h */,
+				BE128DCFB6F7765260541C04FF9611B4 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		BE469905CC9789B84B4F36EAB02E1649 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FB594D243B5C399ADBEF1298DD2200D /* Pods-trendinggif */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF2806D2B90B4F91F365D1EB3B161355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C276A7656BEECCCB87EF64FD359C7C79 /* libAFNetworking.a */,
+				0DA8CA023CA46663B1002C7E55AC7666 /* libAnimatedGIFImageSerialization.a */,
+				2A8F6FADF31A73CB8902496CA34D6552 /* libPods-trendinggif.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25215ADD2F7DF557AB2C3F4B8931DB2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C4590DA6E9F0D9875B3476A946EB6 /* Serialization */,
+				29E825B38C29E2CA00EDC9DC79F0E011 /* Support Files */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EF9F3A34DAF31FBF2D1250B743A1E3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CDBB8C8CC00B91F3B76AE3CF389DDF /* AnimatedGIFImageSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882CCA632B0BF4A30C2A5847F030DC52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7C7D028D9D9CEBE57EE930B5F0CA9D /* AFURLRequestSerialization.h in Headers */,
+				6C31E8E44F979CF51DBDDF9A6FD00270 /* AFURLResponseSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AE91A67AE779562F7CA8F280E4E55D3 /* AnimatedGIFImageSerialization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CF87C60CD2C18224FC29D9EE117FCC /* Build configuration list for PBXNativeTarget "AnimatedGIFImageSerialization" */;
+			buildPhases = (
+				4D25D60D02CF5F1BFF0F017ABAE73890 /* Sources */,
+				AEB5AD8CB86877F49D4145B28020672E /* Frameworks */,
+				3EF9F3A34DAF31FBF2D1250B743A1E3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedGIFImageSerialization;
+			productName = AnimatedGIFImageSerialization;
+			productReference = 0DA8CA023CA46663B1002C7E55AC7666 /* libAnimatedGIFImageSerialization.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9846837AD2E488C5ECA616CC6EFB17AD /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB174583456BF55FA6C179456C8BD5D0 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				3011316FFDA7EB26064C448C667D72CD /* Sources */,
+				970F6F813EB92023E3C3D1EA2679A78B /* Frameworks */,
+				882CCA632B0BF4A30C2A5847F030DC52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = C276A7656BEECCCB87EF64FD359C7C79 /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D44A7810E3BF9AB4819A407356A00F05 /* Pods-trendinggif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95937C5A4981E0CA7ED9ECF3A0034882 /* Build configuration list for PBXNativeTarget "Pods-trendinggif" */;
+			buildPhases = (
+				EBEAECA28F29DF2A52C9701C59FDFD1E /* Sources */,
+				780EB5802EC23FF3C513A482CFF19490 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0232C58AAAE0B7BBCE905CFFB8D7AD1 /* PBXTargetDependency */,
+				3569C6CBA5D262ED5932D1FD48D8D6B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-trendinggif";
+			productName = "Pods-trendinggif";
+			productReference = 2A8F6FADF31A73CB8902496CA34D6552 /* libPods-trendinggif.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CF2806D2B90B4F91F365D1EB3B161355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9846837AD2E488C5ECA616CC6EFB17AD /* AFNetworking */,
+				4AE91A67AE779562F7CA8F280E4E55D3 /* AnimatedGIFImageSerialization */,
+				D44A7810E3BF9AB4819A407356A00F05 /* Pods-trendinggif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3011316FFDA7EB26064C448C667D72CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BB593FC7748D7C0B3C6A2A54894A46 /* AFNetworking-dummy.m in Sources */,
+				43DDA479CB8427EB56B4FF9C33081CD8 /* AFURLRequestSerialization.m in Sources */,
+				C6D7F9324AE08C9EB063F06567779A7E /* AFURLResponseSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D25D60D02CF5F1BFF0F017ABAE73890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9252B44CD95AC87A48BAA6D76AC2FB1 /* AnimatedGIFImageSerialization-dummy.m in Sources */,
+				4A6FFA365B47F3D7EF16B3F843C03005 /* AnimatedGIFImageSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEAECA28F29DF2A52C9701C59FDFD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1250A217F59BEA1E15ACE402E88EC9 /* Pods-trendinggif-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3569C6CBA5D262ED5932D1FD48D8D6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedGIFImageSerialization;
+			target = 4AE91A67AE779562F7CA8F280E4E55D3 /* AnimatedGIFImageSerialization */;
+			targetProxy = 330630BBA52808CF1AB0907E32E934D3 /* PBXContainerItemProxy */;
+		};
+		A0232C58AAAE0B7BBCE905CFFB8D7AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 9846837AD2E488C5ECA616CC6EFB17AD /* AFNetworking */;
+			targetProxy = A8CA94A0380CFD7E21E7A64F0F11C058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		076BB34A922C31E0C65D725E910308B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D9CCCB635F7F5D97AFE928DE261CF7 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		231DAF26F50030356763928F8982CF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4C6891F6C1D478BB0E6F945BBE6FF7 /* Pods-trendinggif.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6D3AAE1C8E76B1A76235924AE36ADEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131154B42300856AABC95C7DFCE8E8E8 /* AnimatedGIFImageSerialization.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedGIFImageSerialization/AnimatedGIFImageSerialization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714F49E46C89A79624149DF81E71187D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CA6E6FFF5583B9FC33F8145BAAA253 /* Pods-trendinggif.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		82EBB4D4F5312A112F7034FED48537E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D9CCCB635F7F5D97AFE928DE261CF7 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B98C95FB4818773686A94B6A1DC1B640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131154B42300856AABC95C7DFCE8E8E8 /* AnimatedGIFImageSerialization.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedGIFImageSerialization/AnimatedGIFImageSerialization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95937C5A4981E0CA7ED9ECF3A0034882 /* Build configuration list for PBXNativeTarget "Pods-trendinggif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231DAF26F50030356763928F8982CF28 /* Debug */,
+				714F49E46C89A79624149DF81E71187D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB174583456BF55FA6C179456C8BD5D0 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076BB34A922C31E0C65D725E910308B8 /* Debug */,
+				82EBB4D4F5312A112F7034FED48537E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CF87C60CD2C18224FC29D9EE117FCC /* Build configuration list for PBXNativeTarget "AnimatedGIFImageSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3AAE1C8E76B1A76235924AE36ADEA5 /* Debug */,
+				B98C95FB4818773686A94B6A1DC1B640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
